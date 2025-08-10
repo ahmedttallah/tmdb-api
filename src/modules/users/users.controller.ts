@@ -9,7 +9,7 @@ import {
 } from '@nestjs/common';
 import { ApiBearerAuth, ApiOperation, ApiTags } from '@nestjs/swagger';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
-import { AuthenticatedRequest } from 'src/shared/interfaces/auth-user.interface';
+import { AuthenticatedRequest } from '../../shared/interfaces/auth-user.interface';
 
 @UseInterceptors(ClassSerializerInterceptor)
 @ApiTags('Users')

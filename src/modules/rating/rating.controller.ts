@@ -19,7 +19,7 @@ import {
   ApiResponse,
 } from '@nestjs/swagger';
 import { RatingService } from './rating.service';
-import { AuthenticatedRequest } from 'src/shared/interfaces/auth-user.interface';
+import { AuthenticatedRequest } from '../../shared/interfaces/auth-user.interface';
 import { UpdateRatingDto } from './dto/update-rating.dto';
 
 @ApiTags('Ratings')
