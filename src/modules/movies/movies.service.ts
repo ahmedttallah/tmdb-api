@@ -6,7 +6,7 @@ import { Movie } from './movie.entity';
 import { ConfigService } from '@nestjs/config';
 import { TmdbMovieDto } from './dto/tmdb-movie.dto';
 import { GetMoviesDto } from './dto/get-movies.dto';
-import { GenreName, genreNameToIdMap } from 'src/shared/constants/genre-list';
+import { GenreName, genreNameToIdMap } from '../../shared/constants/genre-list';
 
 @Injectable()
 export class MoviesService {
