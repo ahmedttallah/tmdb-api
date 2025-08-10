@@ -1,7 +1,7 @@
 import { ApiPropertyOptional } from '@nestjs/swagger';
 import { IsEnum, IsOptional, IsString, Min } from 'class-validator';
 import { Type } from 'class-transformer';
-import { GenreName } from 'src/shared/constants/genre-list';
+import { GenreName } from '../../../shared/constants/genre-list';
 
 export class GetMoviesDto {
   @ApiPropertyOptional({ description: 'Search by title or original title' })
